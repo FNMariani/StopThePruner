@@ -1,0 +1,89 @@
+{
+	"name": "Player",
+	"plugin-id": "Sprite",
+	"sid": 137500748494840,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "lives",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 679877873867108
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 592504727225812
+		},
+		{
+			"behaviorId": "Flash",
+			"name": "Flash",
+			"sid": 957038040272450
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 947757233696469
+		},
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 339530251306184
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 512,
+						"height": 512,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9056116,
+						"collisionPoly": {
+							"points": [
+								0.375,
+								0.083984375,
+								0.693359375,
+								0.1015625,
+								0.728515625,
+								0.142578125,
+								0.787109375,
+								0.697265625,
+								0.68359375,
+								0.986328125,
+								0.291015625,
+								0.984375,
+								0.236328125,
+								0.873046875,
+								0.15234375,
+								0.361328125,
+								0.28125,
+								0.1484375
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 324001936266382,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

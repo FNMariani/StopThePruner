@@ -1,0 +1,21 @@
+{
+	"name": "EnemyFamily",
+	"plugin-id": "Sprite",
+	"sid": 326251642969822,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet2",
+			"sid": 729805771944332
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"EnemyHorizontal",
+		"EnemyVertical",
+		"EnemyShooter",
+		"Projectile",
+		"EnemyHorizontalJump"
+	]
+}

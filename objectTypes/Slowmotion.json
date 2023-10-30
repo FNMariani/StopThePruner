@@ -1,0 +1,52 @@
+{
+	"name": "Slowmotion",
+	"plugin-id": "Sprite",
+	"sid": 460737598302919,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "CanSlow",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 167671567023137
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 244955946734252
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5839959,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 729139097091520,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

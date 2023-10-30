@@ -1,0 +1,94 @@
+{
+	"name": "EnemyVertical",
+	"plugin-id": "Sprite",
+	"sid": 214263085067223,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "CanMove",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 130297204311203
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 569024168122376
+		},
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 963317394921940
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 256,
+						"height": 256,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 354044,
+						"collisionPoly": {
+							"points": [
+								0.6484375,
+								0.2265625,
+								0.98046875,
+								0.609375,
+								0.5703125,
+								0.98828125,
+								0.0234375,
+								0.421875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 256,
+						"height": 256,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4477730,
+						"collisionPoly": {
+							"points": [
+								0.6484375,
+								0.2265625,
+								0.98046875,
+								0.609375,
+								0.5703125,
+								0.98828125,
+								0.0234375,
+								0.421875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 560403961457979,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}
